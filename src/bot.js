@@ -14,14 +14,14 @@ export default class Bot {
         text,
         channel,
         thread_ts,
-        as_user: false,
+        
         username: this.username,
       });
     } else {
       return this.bot.chat.postMessage({
         text,
         channel,
-        as_user: false,
+     
         username: this.username,
       });
     }
